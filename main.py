@@ -1,4 +1,4 @@
-def Hello():
-  return "hallo"
+def hello():
+    return "hallo"
 
-hallo()
+hello()
