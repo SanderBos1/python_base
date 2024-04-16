@@ -3,6 +3,8 @@ install:
 	pip install --upgrade pip &&\
 	pip install -r requirements.txt
 
+make_vm:
+	python -m venv venv
 test:
 	python	-m	pytest	-vv	main_test.py
 
